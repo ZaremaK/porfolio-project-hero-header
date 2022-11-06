@@ -1,0 +1,56 @@
+:root {
+    --main-color: #0A4845;
+    --border-radius: 4px;
+    --secondary-color: #EAFFFE;
+}
+
+body {
+    text-align: center;
+    padding: 0 20px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.hero {
+    background-color: var(--secondary-color);
+    padding: 30px;
+}
+
+h1 {
+    font-family: 'Playfair Display', serif;
+    font-weight: bold;
+    
+    font-size: 5vh;
+    line-height: 48px;
+}
+
+h1 h2,
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: #231d3c;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: normal;
+}
+
+#b-contact {
+    background-color: var(--main-color);
+    color: white;
+    margin-top: 20px;
+}
+
+.buttons-link {
+    margin: 20px;
+    padding: 10px 20px;
+    border: 3px solid var(--main-color);
+    border-radius: var(--border-radius);
+    text-decoration: none;
+}
